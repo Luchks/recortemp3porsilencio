@@ -1,0 +1,3 @@
+para termux
+instalar mplayer para reproductor
+instalar ffmpeg // debo decir que este ultimo no instala todos los paquetes
