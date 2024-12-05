@@ -5,8 +5,8 @@ input="audio.mp3"
 output_base="audio_segment"
 
 # Umbral y duración de silencio en dB y segundos
-silence_threshold="-30dB"
-silence_duration="1"
+silence_threshold="-55.59999dB"
+silence_duration="0.5"
 
 # Detectar los silencios y guardar la salida en un archivo de texto
 ffmpeg -i "$input" -af silencedetect=n=$silence_threshold:d=$silence_duration -f null - 2> silencios.txt
